@@ -7,10 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 a,
 button {
   transition: all .3s ease-in-out;
-  outline: none!important;
+  // outline: none!important;
 }
 
 a:hover {
@@ -24,7 +26,7 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
+  // background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("../img/texture-paper.png");
+  // background: url("../img/texture-paper.png");
   background-size: 280px 280px;
 }
 
@@ -362,9 +364,15 @@ a:hover {
   z-index: 2;
 }
 
-.skip-link {
-  display: none;
-}
+.sr-only {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  }
+  
 
 ul {
   list-style-type: none;
@@ -477,9 +485,9 @@ nav .caret {
   background: rgba(0, 0, 0, .3);
 }
 
-button {
-  outline: none!important;
-}
+// button {
+//   outline: none!important;
+// }
 
 .btn-rd {
   border-radius: 40px;
@@ -834,25 +842,26 @@ h4 {
   border-color: #364577!important;
 }
 
-.bg-dots-bg {
-  background-image: url("../img/dots-bg.png");
-}
+// .bg-dots-bg {
+//   background-image: url("../img/dots-bg.png");
+// }
 
-.bg-lines-h2-bg {
-  background-image: url("../img/lines-h2-bg.png");
-}
+// .bg-lines-h2-bg {
+//   background-image: url("../img/lines-h2-bg.png");
+// }
 
-.bg-atlanta-20made-20sign {
-  background-image: url("../img/atlantaMadeSign.jpg");
-}
+// .bg-atlanta-20made-20sign {
+//   background-image: url("../img/atlantaMadeSign.jpg");
+// }
 
-.bg-atlanta-20made-20sign-20orange {
-  background-image: url("../img/atlanta%20made%20sign%20orange.jpg");
-}
+// .bg-atlanta-20made-20sign-20orange {
+//   background-image: url("../img/atlanta%20made%20sign%20orange.jpg");
+// }
 
 .review {
   margin: 0 70px;
 }
+
 
 @media (max-width: 1024px) {
   .bloc {
