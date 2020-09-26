@@ -24,7 +24,7 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+  background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("../img/texture-paper.png");
   background-size: 280px 280px;
 }
 
@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-  font-size: 11px;
+  font-size: 1.3rem;
 }
 
 .navbar {
@@ -295,7 +295,7 @@ a:hover {
 .navbar-brand {
   height: auto;
   padding: 3px 15px;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: normal;
   font-weight: 600;
   line-height: 44px;
@@ -325,7 +325,7 @@ a:hover {
 .nav > li {
   float: left;
   margin-top: 4px;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -360,6 +360,23 @@ a:hover {
   float: right;
   position: relative;
   z-index: 2;
+}
+
+.skip-link {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: white;
+  :hover {
+    color: lightgrey;
+  }
+}
+
+.links {
+  margin-top: 30px;
 }
 
 @media (min-width: 768px) {
@@ -476,11 +493,11 @@ button {
 }
 
 .icon-md {
-  font-size: 30px!important;
+  font-size:  1.875rem!important;
 }
 
 .icon-lg {
-  font-size: 60px!important;
+  font-size: 3.75rem!important;
 }
 
 .sm-shadow {
@@ -539,7 +556,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-  font-size: 32px;
+  font-size: 0.875rem;
   width: 50px;
   height: 50px;
   margin-left: -25px;
@@ -609,7 +626,7 @@ a[data-lightbox]:hover img {
 
 .next-lightbox,
 .prev-lightbox {
-  font-size: 20px;
+  font-size: 1.875rem;
   color: rgba(255, 255, 255, .9);
   background: rgba(0, 0, 0, .5);
   transition: all .2s ease-in-out;
@@ -651,7 +668,10 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757!important;
+  color: #575757;
+}
+ul a {
+  color: white;
 }
 
 .container {
@@ -659,17 +679,17 @@ a {
 }
 
 .hero-bloc-text {
-  font-size: 38px;
+  font-size: 1.875rem;
 }
 
 .hero-bloc-text-sub {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .statement-bloc-text {
   line-height: 26px;
   font-style: italic;
-  font-size: 20px;
+  font-size: 21.25rem;
   text-align: center;
   font-weight: lighter;
   max-width: 520px;
@@ -677,7 +697,7 @@ a {
 }
 
 p {
-  font-size: 12px;
+  font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
@@ -686,7 +706,7 @@ p {
 }
 
 .h1 {
-  font-size: 20px;
+  font-size: 21.25rem;
   font-family: "Open Sans";
 }
 
@@ -705,12 +725,12 @@ p {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 2rem;
   line-height: 1.4em;
 }
 
 h3 {
-  font-size: 15px;
+  font-size:1.4rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333!important;
@@ -727,7 +747,7 @@ h1 {
 }
 
 h4 {
-  color: #333333!important;
+  color: #ffffff !important;
 }
 
 .icons {
@@ -763,7 +783,6 @@ h4 {
 }
 
 .service-header {
-  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -781,7 +800,7 @@ h4 {
 }
 
 .tc-white {
-  color: #364577!important;
+  color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -816,19 +835,23 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-atlanta-20made-20sign {
-  background-image: url("img/atlanta%20made%20sign.jpg");
+  background-image: url("../img/atlantaMadeSign.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-  background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+  background-image: url("../img/atlanta%20made%20sign%20orange.jpg");
+}
+
+.review {
+  margin: 0 70px;
 }
 
 @media (max-width: 1024px) {
