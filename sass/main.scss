@@ -197,7 +197,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, .5);
+  color: #575757;
 }
 
 .d-bloc .panel button:hover,
@@ -505,7 +505,7 @@ nav .caret {
 }
 
 .icon-lg {
-  font-size: 3.75rem!important;
+  font-size: 6rem!important;
 }
 
 .sm-shadow {
@@ -687,7 +687,7 @@ ul a {
 }
 
 .hero-bloc-text {
-  font-size: 1.875rem;
+  font-size: 4rem;
 }
 
 .hero-bloc-text-sub {
@@ -730,7 +730,12 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  .fa {
+    font-size: 4rem!important;
+  }
 }
+
+
 
 h2 {
   font-size: 2rem;
@@ -792,6 +797,7 @@ h4 {
 
 .service-header {
   font-weight: 700;
+  font-size: inherit;
   text-transform: uppercase;
 }
 
@@ -812,12 +818,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #F3976C;
+  border: 2px solid #f3976c!important;
   color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956!important;
+  border: 2px solid #f3976c!important;
   color: #FFFFFF!important;
 }
 
@@ -830,11 +836,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #F3976C!important;
+  color: #364577!important;
+  text-decoration: underline;
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956!important;
+  color: #364577!important;
 }
 
 .icon-dark-slate-blue {
@@ -862,6 +869,20 @@ h4 {
   margin: 0 70px;
 }
 
+.white {
+  color: white!important;
+}
+
+.submit {
+  border-radius: 50px;
+  background-color: #364577;
+  width: 50%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;  
+}
 
 @media (max-width: 1024px) {
   .bloc {
