@@ -17,9 +17,5 @@
   },
   "homepage": "https://github.com/RianneStreef/P4_Rianne#readme",
 
-  "devDependencies": {
-    "grunt": "^1.3.0",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-uncss": "^0.9.1"
-  }
+
 }
