@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
 
@@ -388,6 +389,9 @@ ul {
 }
 
 @media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
   .site-navigation {
       position: absolute;
       top: 50%;
@@ -674,7 +678,6 @@ p,
 label,
 .btn,
 a {
-  font-family: "helvetica";
   font-weight: 400;
   color: #575757;
 }
@@ -728,8 +731,8 @@ p {
 }
 
 .social {
-  max-width: 400px;
-  margin: auto auto auto auto;
+  display: flex;
+  justify-content: space-evenly;
   .fa {
     font-size: 4rem!important;
   }
@@ -825,6 +828,7 @@ h4 {
 .btn-atomic-tangerine:hover {
   border: 2px solid #f3976c!important;
   color: #FFFFFF!important;
+  background-color:#364577;
 }
 
 .ltc-white {
@@ -882,6 +886,14 @@ h4 {
 .button-container {
   display: flex;
   justify-content: center;  
+}
+
+.contact {
+  margin: 15px;
+}
+
+.contact p {
+  margin: 0;
 }
 
 @media (max-width: 1024px) {
